@@ -7,7 +7,7 @@ import uploadConfig from '@config/upload';
 import UsersController from '../controllers/UsersController';
 import UserAvatarController from '../controllers/UserAvatarController';
 
-import ensureAuthenticated from '../middlewares/checkAuthentication';
+import ensureAuthenticated from '../middlewares/ensureAuthenticated';
 
 const usersRouter = Router();
 const usersController = new UsersController();

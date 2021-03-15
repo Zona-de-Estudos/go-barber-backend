@@ -3,7 +3,7 @@ import { celebrate, Joi, Segments } from 'celebrate';
 
 import ProfileController from '../controllers/ProfileController';
 
-import ensureAuthenticated from '../middlewares/checkAuthentication';
+import ensureAuthenticated from '../middlewares/ensureAuthenticated';
 
 const profileRouter = Router();
 const profileController = new ProfileController();
